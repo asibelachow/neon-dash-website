@@ -3,53 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy | Neon Dash</title>
+    <title>Privacy Policy - Neon Dash</title>
     <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 40px 20px; background-color: #f9f9f9; }
-        .container { background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
-        h1 { color: #007bff; border-bottom: 2px solid #eee; padding-bottom: 10px; }
-        h2 { color: #555; margin-top: 30px; }
-        p, li { margin-bottom: 15px; }
-        .footer { margin-top: 50px; font-size: 0.9em; color: #888; text-align: center; }
-        a { color: #007bff; text-decoration: none; }
-        a:hover { text-decoration: underline; }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            color: #333333;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+        }
+        
+        .effective-date {
+            font-style: italic;
+            color: #7f8c8d;
+            margin-bottom: 20px;
+        }
+        
+        .nav-link {
+            display: inline-block;
+            background-color: #3498db;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        
+        .nav-link:hover {
+            background-color: #2980b9;
+        }
+        
+        .contact-info {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-left: 4px solid #3498db;
+            margin: 20px 0;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ecf0f1;
+            color: #7f8c8d;
+        }
+        
+        ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Privacy Policy</h1>
-        <p><strong>Effective Date:</strong> January 13, 2026</p>
-        <p>Welcome to <strong>Neon Dash</strong>. Your privacy is important to us. This policy explains how we handle information and data security when you play our game.</p>
-
-        <h2>1. Information We Collect and Share</h2>
-        <p>Neon Dash does not require any account registration or personal login. However, we use <strong>Google AdMob</strong> and standard analytics to function. The following data is collected and shared with third-party service providers for advertising and performance monitoring:</p>
-        <ul>
-            <li><strong>Device Identifiers:</strong> We share your Android Advertising ID with AdMob to serve relevant advertisements.</li>
-            <li><strong>Approximate Location:</strong> We use IP addresses to determine your general location (City/Country) to provide ads in the correct language.</li>
-            <li><strong>App Activity:</strong> We track game interactions (like high scores and button clicks) to improve gameplay and monitor ad performance.</li>
-            <li><strong>Performance Data:</strong> We collect <strong>Crash Logs</strong> and <strong>Diagnostics</strong> to identify bugs and ensure the game runs smoothly on all devices.</li>
-        </ul>
-
-        <h2>2. Data Security and Encryption</h2>
-        <p>We take your data security seriously. All data collected and shared with third-party partners is <strong>encrypted in transit</strong> using secure protocols (HTTPS). This ensures that your technical identifiers remain protected while being processed.</p>
-
-        <h2>3. Third-Party Advertising (AdMob)</h2>
-        <p>This app uses Google AdMob. AdMob may use your information to personalize the ads you see. You can opt-out of personalized advertising at any time through your Android device's "Google Settings > Ads" menu.</p>
-        <p>For more details, see <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy & Terms</a>.</p>
-
-        <h2>4. Local Storage</h2>
-        <p>Your game progress, such as your "Best Score" and "Mute Preferences," is stored directly on your device using <strong>Local Storage</strong>. This data is not transmitted to our servers and can be cleared by deleting the app's cache or uninstalling the game.</p>
-
-        <h2>5. Children's Privacy</h2>
-        <p>Neon Dash is a general audience game. We do not knowingly collect personal data from children under the age of 13. If you believe we have inadvertently collected such data, please contact us immediately.</p>
-
-        <h2>6. Contact Us</h2>
+    <a href="index.html" class="nav-link">← Back to Main Site</a>
+    
+    <h1>Privacy Policy</h1>
+    <p class="effective-date">Effective Date: February 16, 2026</p>
+    
+    <p>Welcome to Neon Dash. Your privacy is important to us. This policy explains how we handle information and data security when you play our game.</p>
+    
+    <h2>1. Information We Collect and Share</h2>
+    <p>Neon Dash does not require account registration via email or social media. However, we collect and share the following data:</p>
+    <ul>
+        <li><strong>User-Provided Information:</strong> We collect the Username (Nickname) you choose for the Global Leaderboard. This name is stored on our database to display high scores to other players.</li>
+        <li><strong>Device Identifiers:</strong> We share your Android Advertising ID with AdMob to serve relevant advertisements.</li>
+        <li><strong>Approximate Location:</strong> We use IP addresses to determine your general location (City/Country) to provide ads in the correct language.</li>
+        <li><strong>App Activity:</strong> We track game interactions and high scores to improve gameplay and maintain the leaderboard.</li>
+        <li><strong>Performance Data:</strong> We collect Crash Logs and Diagnostics via Google Play to identify bugs and ensure stability.</li>
+    </ul>
+    
+    <h2>2. Data Security and Encryption</h2>
+    <p>We take your data security seriously. All data, including Leaderboard Nicknames, is encrypted in transit using secure protocols (HTTPS). This ensures your information remains protected while being processed.</p>
+    
+    <h2>3. Third-Party Advertising (AdMob)</h2>
+    <p>This app uses Google AdMob. AdMob may use your information to personalize ads. You can opt-out via your device's "Google Settings > Ads" menu.</p>
+    <p>For more details, see <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy & Terms</a>.</p>
+    
+    <h2>4. Data Storage and Retention</h2>
+    <ul>
+        <li><strong>Local Storage:</strong> Your local progress and "Mute Preferences" are stored on your device.</li>
+        <li><strong>Server Storage:</strong> Your Username and High Scores are stored on a secure database to enable the Global Leaderboard. You can request the deletion of your leaderboard data by contacting us at the email below.</li>
+    </ul>
+    
+    <h2>5. Children's Privacy</h2>
+    <p>Neon Dash is a general audience game. We do not knowingly collect personal data from children under the age of 13. If you believe we have inadvertently collected such data, please contact us.</p>
+    
+    <h2>6. Contact Us</h2>
+    <div class="contact-info">
         <p>If you have questions regarding this Privacy Policy or your data, please reach out to us:</p>
         <p><strong>Email:</strong> bela.apps10@gmail.com</p>
-
-        <div class="footer">
-            &copy; 2026 Neon Dash Studios. All rights reserved.
-        </div>
+    </div>
+    
+    <div class="footer">
+        <p>© 2026 Bela Apps. All rights reserved.</p>
     </div>
 </body>
 </html>
